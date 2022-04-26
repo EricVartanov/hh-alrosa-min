@@ -1,0 +1,132 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 699px) {
+    .idc-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .idc-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /* ******head*** */
+    .idc-head .idc-container {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .idc-head .idc-h1 {
+        /* font-size: 18px;
+        line-height: 22px; */
+        font-size: 5.6vw;
+        line-height: 6.9vw;
+        max-width: 81vw;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .idc-head .idc-logo {
+        width: 63vw;
+    }
+    .idc-item-1 {
+        left: 10%;
+        top: 21%;
+        width: 6vw;
+    }
+    .idc-item-2 {
+        left: 5%;
+        top: 63%;
+        width: 7vw;
+    }
+    .idc-item-3 {
+        right: 4%;
+        top: 31%;
+        width: 10vw;
+    }
+    .idc-item-4 {
+        right: 8%;
+        top: 69%;
+        width: 3vw;
+    }
+
+    /* ******about**** */
+
+    .idc-about .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .idc-about .idc-woman {
+        width: 61vw;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .idc-info p > strong {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 40px;
+    }
+    .idc-info ul {
+        margin-top: 20px;
+        max-width: 90%;
+    }
+
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 4px;
+        height: 4px;
+    }
+
+    /* ******pluses**** */
+    .idc-pluses .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .idc-pluse {
+        width: calc(50% - 5px);
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .idc-pluse .idc-text {
+        text-align: left;
+        width: 98%;
+    }
+    .idc-pluse:nth-child(4) {
+        margin-left: auto;
+    }
+    .idc-pluse:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+
+    /* ******footer**** */
+    .idc-footer .idc-container {
+        height: 256px;
+    }
+    .idc-footer .swiper-slide {
+        width: 255px;
+    }
+    .idc-swiper-block {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
